@@ -18,7 +18,7 @@ real*8 :: sigma, kappa, e1, F0, w, vx_fin, vy_fin, Fx, Fy, dy, vy0, Int
 real*8 :: Fmax, re, beta, x_int, traj
 real*8 :: anm, v, Ax, Ay, const, vx_asymp, vy_asymp
 
-open(unit = 28,file="laser.txt")
+open(unit = 28,file="traj_spm.txt")
 
 
 e1 = 0.0d0
@@ -75,7 +75,7 @@ y=y+dt2*vy
 traj =  (F0/w)*(sin(w*t0)*(t - t0) + (cos(w*t) - cos(w*t0))/w)
 !priniting only free particle solusion
 !----------------------------------------------------------------------------------------------------------
-write(28,*) F0*cos(w*t),t
+write(28,*) traj,t
 
 enddo
 
