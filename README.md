@@ -1,3 +1,3 @@
 - 👋 Hi, I’m Soumi Dutta
-- 🌱 I’m currently learning Machine Learning, Python programming.
+- 🌱 I’m currently learning Machine Learning, Python Programming.
 - 📫 You can reach me by email at soumidutta.xaviers@gmail.com, or by telephone at number +4915175433404 
