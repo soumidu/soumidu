@@ -61,6 +61,7 @@ t = t + dt
 call sub2(t,e1,F0,w,cycles,Fx)
 call sub3(t,e1,F0,w,cycles,Fy)
 
+!non-linear differential equation solvers: leap-frog algorithm
 x=x+dt2*vx
 vx=vx+dt*( f_cx(x,y,z) - Fx )
 x=x+dt2*vx
